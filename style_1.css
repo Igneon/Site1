@@ -1,0 +1,110 @@
+body {
+    font: 12pt georgia;
+    color: black;
+    background-color: beige;
+    background-image: url(pale_beige_background.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0px 
+
+}
+h1, h2, h6 {
+    font-style: oblique;
+    letter-spacing: 1mm;
+    text-shadow: rosybrown 3px 2px 3px;
+    text-align: left
+    
+}
+h1 {
+    font-size: 20pt;
+}
+h2 {
+    font-size: 18pt;
+}
+h6 {
+    font-size: 12pt;
+}
+
+p {
+    text-align: justify
+}
+table {
+    font-size: 10pt;
+    line-height: 2;
+    align-content: center;
+    border: medium solid black;
+    border-spacing: 1px;
+    border-collapse: collapse 
+}
+td, th {
+    border: thin dotted black;
+    padding: 2px
+}
+blockquote {
+    font-size: 10pt;
+    font-style: italic
+}
+ul {
+    list-style-type: none
+}
+address {
+    font-size: 10pt;
+    font-style: italic;
+    text-align: right
+}
+#navbar { 
+    font-family: georgia, serif;
+    font-size: 12pt;
+    list-style-type: none;
+    margin-left: -30px
+    
+}
+
+#navbar li {
+    padding: 5px 10px;
+    margin: 10px 0px;
+    border: thin solid black
+}
+
+#cheader {
+    width: 1030px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: thin blue inset
+     
+}
+#cnavbar {
+    width: 250px;
+    height: 570px;
+    float: left;
+    overflow: auto;
+    margin-right: 10px 
+}
+#navbar li ul {
+    list-style-type: none;
+    margin-left: -20px;
+    margin-top: 10px
+}
+#navbar li ul li {
+    font-size: 10pt;
+    padding: 0px;
+    margin: 0px;
+    border-style: none
+}
+
+#cmain {
+    width: 780px;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    border-left: thin blue inset;
+    background: blanchedalmond
+    
+   
+}
+#ccopyright {
+    width: 1030px;
+    clear: both;
+    padding: 10px 20px 0px 20px;
+    border-top: thin blue inset
+}
