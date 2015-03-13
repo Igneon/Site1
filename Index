@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <link rel="stylesheet" href="style_1.css" type="text/css">
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html;  charset=utf-8">
+    <TITLE>Справочник по HTML и CSS</TITLE>
+</HEAD>
+<BODY>
+
+    <div id="cheader">
+        <H1>Справочник по HTML и CSS</H1>
+    </div>
+    <div id="cnavbar">
+        <ul id="navbar">
+            <li><a href="index.html">HTML</a>
+            <ul>
+                <li><code>!DOCTYPE</code></li>
+                <li><code>BODY</code></li>
+                <li><code>EM</code></li>
+                <li><code>HEAD</code></li>
+                <li><code>HTML</code></li>
+                <li><code>META</code></li>
+                <li><code>P</code></li>
+                <li><code>STRONG</code></li>
+                <li><code><a href="tags/t_img.html" target="_blank">IMG</a></code></li>
+                <li><code><a href="tags/t_title.html" target="_blank">TITLE</a></code></li>
+                <li><code><a href="tags/t_audio.html" target="-blank">AUDIO</a></code></li>
+                <li><code><a href="tags/t_video.html" target="_blank">VIDEO</a></code></li>
+
+            </ul>
+            </li>
+            <li><a href="css_index.html">CSS</a></li>
+            <li><a href="samples_index.html">Примеры</a></li>
+            <li><a href="about.html">О разрабаотчиках</a></li>
+        </ul>
+    </div>
+    <div id="cmain">
+        <P>Приветствуем на нашем Web-сайте всех кто занимается Web-дизайном!
+Здесь вы сможете найти информацию обо всех интернет-технологиях, применяемых при создании Web-страниц. А именно, о языках <DFN>HTML</DFN> и <DFN>CSS</DFN>.</P>
+      <HR>
+      <P>Русская википедия определяет термин HTML так:</P>
+      <BLOCKQUOTE>
+          <P>HTML (от англ. <EM>HyperText Markup Language</EM> - язык разметкм гипертекста) - стандартный язык разметки документов во Всемирной паутине. <a href="https://ru.wikipedia.org/wiki/HTML" target="_blank">Полная статья</a></P>
+      </BLOCKQUOTE>
+      <P>Пожалуй, ни убавить ни прибавить... :)</P>
+   <HR>
+   <p>Список версий HTML</p>
+   <table>
+       <caption><strong>Список версий HTML:</strong></caption>
+       <tr>
+           <th><em>ВерсияHTML</em></th>
+           <th><em>Год выхода</em></th>
+           <th><em>Особенности</em></th>
+       </tr>
+       <tr>
+           <td>1.0</td>
+           <td>1992</td>
+           <td>Официально не была стандартизированна</td>
+       </tr>
+       <tr>
+           <td>2.0</td>
+           <td>1995</td>
+           <td>Первая стандартизированная версия</td>
+       </tr>
+       <tr>
+           <td>3.2</td>
+           <td>1997</td>
+           <td>Поддержка таблиц и графики</td>
+       </tr>
+       <tr>
+           <td>4.0</td>
+           <td>1997</td>
+           <td>"Очищен" от устаревших тегов</td>
+       </tr>
+       <tr>
+           <td>4.01</td>
+           <td>1999</td>
+           <td>В основном, исправление ошибок</td>
+       </tr>
+       <tr>
+           <td>5.0</td>
+           <td>?</td>
+           <td>В разработке</td>
+       </tr>
+
+
+   </table>
+   <P>HTML позволяет форматировать на Web-страницах сделуеющие эелементы:</P>
+      <UL>
+         <LI>абзацы;</LI>
+         <LI>заголовки;</LI>
+         <LI>цитаты;</LI>
+         <LI>списки;</LI>
+         <LI>таблицы;</LI>
+         <LI>графические изображения;</LI>
+         <LI>аудио- и видеороликию</LI>
+      </UL>
+      <H2>Основные принципы HTML</H2>
+      <P>.   .   .</P>
+      
+    </div>
+    <div id="ccopyright">
+        <ADDRESS>Все права защищены.<BR>&copy<a href="mailto:an_donets@ukr.net">A.Nika</a> 2015 год.</ADDRESS>
+    </div>
+   </BODY>
+</HTML>
